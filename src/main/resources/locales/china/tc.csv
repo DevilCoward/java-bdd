@@ -1,0 +1,17 @@
+// manage Card screen
+"manage_card_page_title"                                                               ,"管理信用卡"
+"manage_card_card_services_title"                                                      ,"信用卡服務"
+"manage_card_card_services_bub"                                                        ,"暫時封鎖此信用卡"
+"manage_card_bub_success_popup_title"                                                  ,"信用卡已被暫時封鎖"
+"manage_card_bub_popup_success_message"                                                ,"我們將會封鎖您的所有信用卡交易，包括任何透過流動裝置進行的交易以及自動櫃員機的有關功能。封鎖信用卡不會影響： 直接付款指示 商戶分期付款指示 部分商戶自動付款指示 部分感應式付款指示"
+"manage_card_bub_success_popup_ok_button"                                              ,"明白"
+"manage_card_bub_card_details_block_info_message"                                      ,"您已暫時封鎖您的信用卡。此指示有效期至%s，之後我們將會自動報失此卡。"
+"manage_card_bub_card_details_block_info_message_secondary_card"                       ,"此信用卡已被主卡持有人暫時停用。請聯絡您的主卡持有人了解詳情。"
+"switch-on"                                                                            ,"開啟"
+"switch-off"                                                                           ,"關閉"
+"manage_card_no_service_available_non_recoverable_error"                               ,"沒有任何適用於此信用卡的服務。"
+"account_details_page_title"                                                           ,"戶口詳情"
+"service_unavailable_error_text"                                                       ,"Service unavailable"
+"service_temporary_unavailable_error_text"                                             ,"this service is temporarily unavailable"
+
+"cardName-0"                                                                           ,"連卡佛卡"

@@ -1,0 +1,185 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-21T08:43:50.552Z",
+        "line": 21,
+        "name": "The user can see the inline error message when input amount exceed offer cap and lower than 500",
+        "description": "",
+        "id": "instalment-scenario;the-user-can-see-the-inline-error-message-when-input-amount-exceed-offer-cap-and-lower-than-500",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3361540152,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user selects entity from Entity dropdown",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:21"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203550645,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks on continue button to proceed on Sample app",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823243520,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user clicks on Launch Spend Instalment button on Sample app",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:30"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2869387064,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user is navigated to instalment dashboard screen",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:75"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183597107,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks apply for another instalment plan link",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:83"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1471761733,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user is navigated to balance instalment page",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:56"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5284527845,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user inputs 50001.00 in the amount input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50001.00",
+                  "offset": 16
+                }
+              ],
+              "location": "InstalmentSampleAppSteps.java:86"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121379017,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user should see the inline error message is displayed",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:89"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5239012992,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user inputs 499.00 in the amount input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "499.00",
+                  "offset": 16
+                }
+              ],
+              "location": "InstalmentSampleAppSteps.java:86"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171166180,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user should see the inline error message is displayed",
+            "match": {
+              "location": "InstalmentSampleAppSteps.java:89"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1140574781,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user restarts app",
+            "match": {
+              "location": "LogoffSteps.java:12"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sampleApp_my"
+          },
+          {
+            "name": "@luffy"
+          }
+        ]
+      }
+    ],
+    "name": "Instalment Scenario",
+    "description": "  I want to login on Instalment sample app\n  In order to view and create instalment plan",
+    "id": "instalment-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sampleapp/InstalmentSampleAppMY.feature",
+    "tags": [
+      {
+        "name": "@sampleApp_my",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+---
+applications:
+  - name: mxgl-fullstack-report
+    instances: 1
+    memory: 1G
+    disk_quota: 512M
+    buildpack: staticfile_buildpack_1_5_4_cflinuxfs3
+    stack: cflinuxfs3
